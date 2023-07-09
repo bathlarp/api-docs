@@ -1,0 +1,17 @@
+openapi: "3.0.2"
+info:
+  title: BathLARP - Auth
+  version: "1.0"
+servers:
+  - url: https://api.bathlarp.co.uk/v1/auth
+paths:
+  /sign-up:
+    get:
+      responses:
+        "200":
+          description: OK
+  /sign-in:
+    get:
+      responses:
+        "200":
+          description: OK

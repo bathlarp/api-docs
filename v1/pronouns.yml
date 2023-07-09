@@ -1,0 +1,12 @@
+openapi: "3.0.2"
+info:
+  title: BathLARP - Pronouns
+  version: "1.0"
+servers:
+  - url: https://api.bathlarp.co.uk/v1/pronouns
+paths:
+  /:
+    get:
+      responses:
+        "200":
+          description: OK
